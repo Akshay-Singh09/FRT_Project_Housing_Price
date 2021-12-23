@@ -9,6 +9,6 @@ document.getElementById("sub").onclick = function () {
     request.open('POST',endpoint,true);
     request.setRequestHeader("Access-Control-Allow-Origin","*");
     request.setRequestHeader("Content-Type","application/json");
-    data=[{'1',600,'Kharghar',1,0,1,1,1,1,1,0,1,0,0,0,0,1,1}]
+    data={'1',600,'Kharghar',1,0,1,1,1,1,1,0,1,0,0,0,0,1,1}
     request.send("data");
 }
