@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url("mumbai.jfif") no-repeat;
+    background-size: cover;
+}
+
+#header {
+    background: rgb(75, 132, 206);
+    text-align: center;
+    padding: 10px;
+    color: #ffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+#form {
+    background: rgba(224, 219, 219, 0.671);
+    border: double rgb(75, 132, 206) 10px;
+    width: 40%;
+    margin: 10px auto;
+    padding: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+#predict {
+    border: solid rgb(110, 11, 156);
+    width: fit-content;
+    padding: 2px;
+}
+
+#graph {
+    border: double rgb(75, 132, 206) 5px;
+    width: 70%;
+    margin: 10px auto;
+}
+
+#result {
+    border: double rgb(75, 132, 206) 5px;
+    width: 70%;
+    margin: 10px auto;
+}
+
+#graph img {
+    width: 100%;
+}
+
+#result img {
+    width: 100%;
+}
